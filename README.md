@@ -18,6 +18,10 @@ WiTh sPeCAIL CHaArtCErs tHIS CsRiPT Is nTo FiNSIHED yET, sO InStEAd oF , iT mAy 
 
 ON sNhI?T ThIs ScRiPT wAs DONEDEurInG LUnCh brEak. WAHT Do YoU eXPETeCD?
 
+# iNsTLALAtiOn
+
+cOPy/APTSe RO DoWNloAD sCRiPt AnDRDUN: pip install -r requirements.txt
+
 # uSAgE
 
 StRTAiNg: python retarded.py
