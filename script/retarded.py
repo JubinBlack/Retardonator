@@ -21,16 +21,13 @@ def activationMode(key):
                 activated = False
                 keyboard.release(Key.shift)
                 print("Retarded deactivated")
-                actFlag = False
             else:
                 activated = True  
                 print("Retarded activated")
-                actFlag = False
                 lastChar = ""
         else:
             pass
         if(key.char == "a" and actFlag):
-            actFlag = False
             msg = pyperclip.paste()
             msg = msg.replace('"', "")
             newMsg = '"'
@@ -66,7 +63,7 @@ def on_press(key):
         return
 
     activationMode(key)
-
+    actFlag = False
     if(activated):
         if (key == Key.enter):
             enterPressed = True
