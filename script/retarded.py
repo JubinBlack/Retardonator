@@ -31,7 +31,6 @@ def activationMode(key):
             pass
         if(key.char == "a" and actFlag):
             actFlag = False
-            print("text modified")
             msg = pyperclip.paste()
             msg = msg.replace('"', "")
             newMsg = '"'
@@ -63,7 +62,6 @@ def on_press(key):
         return
 
     if key == Key.alt_l:
-        print("alt pressed")
         actFlag = True
         return
 
